@@ -1,0 +1,205 @@
+/* Author: Mansi Shah */
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Please check on the second page */
+html{
+  scroll-padding-top: 6rem;
+}
+
+body{
+  padding-top: 72px;
+}
+
+nav{
+  background-color: #80471C;
+}
+
+.nav-link{
+  color: #f5deb3;	
+}
+.nav-link:hover{
+	color: #fff8dc;
+}
+
+.cover{
+  position: relative;
+}
+
+.cover:before{
+  content: "";
+  background-image: url('images/bg.jpg'); /* Retrieved from https://wallpaperaccess.com/ancient-world-map# */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.profile-picture{
+  background-color: #152238;
+  border: 3px solid #152238;
+  border-radius: 25%;
+  height: 125px;
+  margin-bottom: 20px;
+}
+
+.title{
+  color: #80471C;
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+.subtitle{
+  color: #80471C;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0.4px 0.4px 0.4px #152238;
+}
+
+main{
+  background-color: #faffff;
+}
+
+main h1{
+  text-align: center;
+  color: #80471C;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+main h2{
+  text-align: center;
+  color: #80471C;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+main p{
+  text-align: justify;	
+  color: #102c3c;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 0px 4px;
+}
+
+.column img {
+  width: 100%;
+}
+
+.thumbnail {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.overlay p{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.thumbnail:hover .overlay{
+  opacity: 1;
+}
+
+.rowp {
+  display: flex;
+}
+
+.columnp {
+  flex: 50%;
+  padding: 5px;
+}
+/*improving table look*/
+table, th, td {
+    border: 1px solid black;
+	text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 20px;
+}
+#table tr:nth-child(even){
+	background-color: rgb(200,200,200);
+}
+#table th {
+	background-color: #9a7b4f;
+    color: white;
+}	
+
+#tbllink a{
+  color: #9a7b4f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.tag{
+  text-align: center;
+  margin: 16px; 
+}
+
+.work .preview{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  max-width: 900px;
+  width: 100%;
+}
+
+
+.work img{
+  width: 100%;
+}
+
+footer{
+  background-color: #80471C;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+  .overlay p{
+      font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .overlay p{
+      font-size: 0.6rem;
+  }
+}
