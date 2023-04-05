@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- Cartography Page -->
+<!-- Author: Mansi Shah -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi Shah | GIS Portfolio </title>
+	<link rel="icon" href="images/logo.png" type="image/png" sizes="any"> <!-- logo from logodix.com -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-xxl navbar-dark fixed-top px-3 px-sm-5 py-3">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dark-blue-navbar" aria-controls="dark-blue-navbar" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="dark-blue-navbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- Cartography -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active"  href="cartography.html" data-bs-toggle="dropdown" aria-expanded="false">Cartography</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="cartography.html#Starting-With-Basics">Starting With Basics</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#Infographics">Infographics</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#Different-Mapping-Techniques">Different Mapping Techniques</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#Terrain-Visualization">Terrain Visualization</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="cartography.html#Map-Symbols">Map Symbols</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Spatial Analysis -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="spatialanalysis.html" data-bs-toggle="dropdown" aria-expanded="false">Spatial Analysis</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="spatialanalysis.html#Interpolation-with-the-Spatial-Analyst-Extension-in-ArcGIS-Pro">Interpolation with the Spatial Analyst Extension in ArcGIS Pro</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spatialanalysis.html#Closest-Facility-&-Service-Area-Network-Analysis">Closest Facility & Service Area Network Analysis</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Remote Sensing -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="remotesensing.html" data-bs-toggle="dropdown" aria-expanded="false">Remote Sensing</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="remotesensing.html#Introduction">Introduction</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="remotesensing.html#Pan-Sharpening-of-Spatial-Imagery">Pan-Sharpening of Spatial Imagery</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="remotesensing.html#Multi-Spectral-Land-Cover-Classification">Multi-Spectral Land Cover Classification</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="remotesensing.html#LiDAR-Derived-Raster-Products">LiDAR Derived Raster Products</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Web GIS -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="webgis.html" data-bs-toggle="dropdown" aria-expanded="false">Web GIS</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="webgis.html#Highlights">Highlights</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="webgis.html#Google-Maps">Google Maps</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="webgis.html#Interactive-Web-Map">Interactive Web Map Solution</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Programming -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="programming.html" data-bs-toggle="dropdown" aria-expanded="false">Programming</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="programming.html#Python-Programming-Basics">Python Programming Basics</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#Python-programming-with-ArcGIS-Pro">Python Programming with ArcGIS Pro</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="programming.html#Website-Design">Website Design Using HTML, CSS & JavaScript</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Collaborative Project -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="https://mansi8806.github.io/P2215-HHLT/index.html" data-bs-toggle="dropdown" aria-expanded="false">Collaborative Project</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://mansi8806.github.io/P2215-HHLT/index.html" target="_blank">Remote Sensing Data and Tools Framework for Haliburton Highlands Land Trust</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Main  -->
+    <main>
+      <div class="container py-5">
+        <!-- Starting with basics -->
+        <section class="work" id="Starting-With-Basics">
+          <h1>Starting With Basics</h1>
+          <div class="tag"><a class="btn btn-outline-dark btn-sm" href="images/covid.jpg" target="_blank" role="button">View Map</a></div>
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span> <span class="badge text-bg-warning">Adobe Illustrator</span> <span class="badge text-bg-secondary">Avenza MAPublisher</span></div>
+          <p>For better representation of information on maps, understanding of concepts of cartography like visual hierarchy, text and typography, map elements, color palettes, labels and annonations are much necessary. All of these fundamentals are implemented in the map below which showcases the 2 important medical facilites like pharmacy and medical centres locations in New York City during the Covid-19 pandemic.
+		  Other than that population density per square mile as per 2020 census is displayed by the pink color palette where darker shade shows more population and lighter shades shows lesser population which in turns helps the user    </p>
+          <a class="preview"><img src="images/covid.jpg" alt="Covid New York"></a>
+        </section>
+		
+		<!-- Infographics -->
+        <section class="work" id="Infographics">
+          <h1>Infographics</h1>
+          <div class="tag"><a class="btn btn-outline-dark btn-sm" href="images/info.pdf" target="_blank" role="button">View Poster</a></div>
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span> <span class="badge text-bg-warning">Adobe Illustrator</span> <span class="badge text-bg-secondary">Avenza MAPublisher</span></div>
+          <p> A detailed infographic map poster of size 34x54 inch is attached as pdf here which demonstrates the 6th goal of United Nations Sustainable Development, i.e. Clean Water & Sanitation. 
+		  A particular interest of Domestic freshwater consumption amongst the countries is evaluated here. The map layout contains 3 maps related to topic which were created using ArcGIS Pro and after that all other grahpic elements used for comparison are put together in Adobe Illustrator.</p>
+          <!-- <div class="preview"><img src="images/info.jpg" alt="Infographic Map"></div> -->
+        </section>
+        <!-- Mapping Techniques -->
+        <section class="work" id="Different-Mapping-Techniques">
+          <h1>Different Mapping Techniques</h1>
+          
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span> <span class="badge text-bg-warning">Adobe Illustrator</span> <span class="badge text-bg-secondary">Avenza MAPublisher</span></div>
+          <p> Have an insight about the fundamentals of point, line and area mapping techniques used to communicate the geographic information effectively. 
+           Here are some example maps that demonstrate the appropriate selection of these mapping techniques to make them more coherent and logical.</p> 
+  <table id= "table">
+  <tr>
+    <th>Mapping Technique</th>
+    <th>Description</th>
+    <th>Link to view Map</th>
+  </tr>
+  <tr>
+    <td>Dot Density</td>
+    <td>Each dot represents a center quantity of a variable</td>
+    <td><a href="files/DotDensity.pdf" id="tbllink" style="color:#9a7b4f;text-decoration:none;" target="_blank">Domestic Freshwater Usage of Countries</a></td>
+  </tr>
+  <tr>
+    <td>Proportional Dot Density</td>
+    <td>Varying size of a symbol in proportion to quantity it represents</td>
+    <td><a href="files/ProportionalDot.pdf" id="tbllink" style="color:#9a7b4f;text-decoration:none;" target="_blank">Internet Users Around The World</a></td>
+  </tr>
+  <tr>
+    <td>Radial Flow</td>
+    <td>Depicts the type of movement between places</td>
+    <td><a href="files/RadialLine.pdf" id="tbllink" style="color:#9a7b4f;text-decoration:none;" target="_blank">My Wishlist Cities</a></td>
+  </tr>
+  <tr>
+    <td>Distributive Flow</td>
+    <td>Width of flow lines are drawn in proportion to the quantity of the movement represented</td>
+    <td><a href="files/WeightedLine.pdf" id="tbllink" style="color:#9a7b4f;text-decoration:none;" target="_blank">Immigration to Toronto</a></td>
+  </tr>
+  <tr>
+    <td>Choropleth</td>
+    <td>Rendering of data collected for individually identifiable enumerations units, displaying derived values, proportional to the area</td>
+    <td><a href="files/Choropleth.pdf" id="tbllink" style="color:#9a7b4f;text-decoration:none;" target="_blank">Proportion of Restaurants in States of India</a></td>
+  </tr>
+  <tr>
+    <td>Choropleth Bivariate </td>
+    <td>Display the comparison between between two variables</td>
+    <td><a href="files/Bivariate.pdf" id="tbllink" style="color:#9a7b4f;text-decoration:none;" target="_blank">Comparing Toronto's Neighborhoods Household Income to Higher Education</a></td>
+  </tr>
+  </table>
+        </section>
+		
+		<!-- Terrain Visualization -->
+        <section class="work" id="Terrain-Visualization">
+          <h1>Terrain Visualization</h1>
+          <div class="tag"><a class="btn btn-outline-dark btn-sm" href="files/Kangchenjunga.pdf" target="_blank" role="button">View Map</a> <a class="btn btn-outline-dark btn-sm" href="files/tvsteps.pdf" target="_blank" role="button">View Flowchart</a></div>
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span> <span class="badge text-bg-warning">Adobe Illustrator</span> <span class="badge text-bg-secondary">Avenza MAPublisher</span> <span class="badge text-bg-info">Avenza Geographic Imager for Adobe Photoshop</span></div>
+          <p>Here is attached a large format General Reference map of the 3<sup>rd</sup> highest mountain peak in the world, i.e Mt. Kangchenjunga having map scale of 1:100000. A mosaic satellite image of Landsat 8 bands 2,3,4 and 5(2013) tiles downloaded from USGS Earth Explorer is the base data used here for rendering terrain at this location.
+		  Vector data for references of roads, waterways, points of interest and place names was downloaded for India, Nepal & China and then merged and generalized using tools in ArcGIS Pro. Then 19 different layers are created in Adobe Photoshop with the help of Geographic Imager to diplay the terrain effects on the map as appealing as possible. 
+		  The steps to achieve this final map is described in flowchart above.</p>
+          <a class="preview"><img src="images/Kangchenjunga.png" alt="Mt. Kangchenjunga"></a>
+		  <p>In addition, this mapping technique is applied for another reference map to represent the terrain surface of the Western Ghats in South India. Please <a href="files/TerrainWL.pdf" target="_blank">click here</a> to view the map.</p>
+        </section>
+        
+        <!-- Icons -->
+        <section class="work" id="Map-Symbols">
+          <h1>Map Symbols</h1>
+          <a class="preview"><img  src="images/icon.png" alt="Map icons" style="width:40%; height:auto"></a>
+          <div class="tag"><span class="badge text-bg-warning">Adobe Illustrator</span> <span class="badge text-bg-secondary">Google My Maps</span></div>
+          <p>The above map symbol set of size 16x16 pixel to show the places of art studios are designed in Adobe Illustrator. 
+		  Symbol sizes and the map scale range on which they should be displayed are decided based on observations and testing of present map icons and the details of roads and buildings on various map scales.
+This set of symbol was found to be ideal for a map greater than scale of 1:20000.</p>
+          <a class="preview"><img src="images/iconmap.png" alt="Map icons on Google MyMaps"></a>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-light">Copyright © 2023 Mansi Shah. All Rights Reserved.</span>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>$('.dropdown-item').on('click', function(){$('.navbar-collapse').collapse('hide');});</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
