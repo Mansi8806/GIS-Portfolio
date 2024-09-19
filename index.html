@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!-- Resized images by imageresizer.com -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -26,8 +27,68 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <!-- Cartography -->
+            <!-- Research Projects -->
+            <li class="nav-item dropdown"></li>
+            <a class="nav-link dropdown-toggle" href="projects.html" data-bs-toggle="dropdown" aria-expanded="false">Research Projects</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="projects.html#Water-Resources">Water Resources Engineering Project</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="projects.html#GIS-Collab">GIS Collaborative Project</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Surveying -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="surveying.html" data-bs-toggle="dropdown" aria-expanded="false">Surveying</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="surveying.html#Survey-Plan">City of Kawartha Lakes Survey Plan</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="surveying.html#Traverse-Plan">Survey Traverse Plan</a>
+              </li>
+            </ul>
+          </li>
+            <!-- Web Development -->
             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="webgis.html" data-bs-toggle="dropdown" aria-expanded="false">Web development</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="webgis.html#Highlights">Highlights</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="webgis.html#Google-Maps">Google Maps</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="webgis.html#Interactive-Web-Map">Interactive Web Map Solution</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Programming -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="programming.html" data-bs-toggle="dropdown" aria-expanded="false">Programming</a>
+              <ul class="dropdown-menu">
+                </li>
+                  <a class="dropdown-item" href="programming.html#Drone-Flight">Drone Flight Survey Plan Python Code</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#Python-Programming-Basics">Cave Mapping Python Code</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#Python-programming-with-ArcGIS-Pro">Python Programming with ArcGIS Pro</a>
+                </li>
+				        <li>
+                  <a class="dropdown-item" href="programming.html#Website-Design">Website Design Using HTML, CSS & JavaScript</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#SQL">SQL and Microsoft Access Database</a>
+                </li>
+              </ul>
+            </li>
+             <!-- Cartography -->
+             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle"  href="cartography.html" data-bs-toggle="dropdown" aria-expanded="false">Cartography</a>
               <ul class="dropdown-menu">
                 <li>
@@ -41,9 +102,6 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="cartography.html#Terrain-Visualization">Terrain Visualization</a>
-                </li>
-				<li>
-                  <a class="dropdown-item" href="cartography.html#Map-Symbols">Map Symbols</a>
                 </li>
               </ul>
             </li>
@@ -77,45 +135,6 @@
                 </li>
               </ul>
             </li>
-            <!-- Web GIS -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="webgis.html" data-bs-toggle="dropdown" aria-expanded="false">Web GIS</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="webgis.html#Highlights">Highlights</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="webgis.html#Google-Maps">Google Maps</a>
-                </li>
-				<li>
-                  <a class="dropdown-item" href="webgis.html#Interactive-Web-Map">Interactive Web Map Solution</a>
-                </li>
-              </ul>
-            </li>
-            <!-- Programming -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="programming.html" data-bs-toggle="dropdown" aria-expanded="false">Programming</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="programming.html#Python-Programming-Basics">Python Programming Basics</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="programming.html#Python-programming-with-ArcGIS-Pro">Python Programming with ArcGIS Pro</a>
-                </li>
-				<li>
-                  <a class="dropdown-item" href="programming.html#Website-Design">Website Design Using HTML, CSS & JavaScript</a>
-                </li>
-              </ul>
-            </li>
-            <!-- Collaborative Project -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="https://mansi8806.github.io/P2215-HHLT/index.html" data-bs-toggle="dropdown" aria-expanded="false">Collaborative Project</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="https://mansi8806.github.io/P2215-HHLT/index.html" target="_blank">Remote Sensing Data and Tools Framework for Haliburton Highlands Land Trust</a>
-                </li>
-              </ul>
-            </li>
           </ul>
         </div>
       </div>
@@ -145,133 +164,164 @@
 		  </p>
         </section>
         
-		<!-- GIS Projects -->
+		<!-- Projects -->
         <section>
-          <h1>GIS Projects</h1>
-          <div class="gallery">
+          <h1>Projects</h1>
+          <div class="gallery"> <!-- For all images, use https://imageresizer.com/ to resize images to size 500 px * 500 px-->
             <div class="column">
+              <!-- Water Resources Project -->
+            <div class="thumbnail" onclick="window.location.href='projects.html#Water-Resources'" style="cursor:pointer;">
+              <img src="summary/water.png" alt="City of Kawartha Lakes Survey Plan">
+              <div class="overlay">
+                <p>Water Resources Engineering Project</p>
+              </div>
+            </div> 
+              <!-- Survey Plan -->
+            <div class="thumbnail" onclick="window.location.href='surveying.html#Survey-Plan'" style="cursor:pointer;">
+              <img src="summary/survey.png" alt="City of Kawartha Lakes Survey Plan">
+              <div class="overlay">
+                <p>City of Kawartha Lakes Survey Plan</p>
+              </div>
+            </div>
+            <!-- Traverse Plan -->
+            <div class="thumbnail" onclick="window.location.href='surveying.html#Traverse-Plan'" style="cursor:pointer;">
+              <img src="summary/traverse.png" alt="Survey Traverse Plan">
+              <div class="overlay">
+                <p>Survey Traverse Plan</p>
+              </div>
+            </div>
               <!-- Medical Facilities In New York City Amongst Covid-19 -->
-              <div class="thumbnail" onclick="window.open('cartography.html#Starting With Basics');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='cartography.html#Starting With Basics'" style="cursor:pointer;">
                 <img src="summary/covid.png" alt="Medical Facilities In New York City Amongst Covid-19">
                 <div class="overlay">
                   <p>Medical Facilities In New York City Amongst Covid-19</p>
                 </div>
               </div>
-              
               <!-- Terrain Visualization -->
-              <div class="thumbnail" onclick="window.open('cartography.html#Terrain-Visualization');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='cartography.html#Terrain-Visualization'" style="cursor:pointer;">
                 <img src="summary/Terrain.png" alt="Terrain Visualization">
                 <div class="overlay">
                   <p>Terrain Visualization</p>
                 </div>
               </div>
               <!-- Closest Facility & Service Area Network Analysis -->
-              <div class="thumbnail" onclick="window.open('spatialanalysis.html#Closest-Facility-&-Service-Area-Network-Analysis');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='spatialanalysis.html#Closest-Facility-&-Service-Area-Network-Analysis'" style="cursor:pointer;">
                 <img src="summary/ServiceArea.png" alt="Closest Facility & Service Area Network Analysis">
                 <div class="overlay">
                   <p>Closest Facility & Service Area Network Analysis</p>
                 </div>
               </div>
-			  <!-- LiDAR Derived Raster Products -->
-              <div class="thumbnail" onclick="window.open('remotesensing.html#LiDAR-Derived-Raster-Products');" style="cursor:pointer;">
+			     <!-- LiDAR Derived Raster Products -->
+              <div class="thumbnail" onclick="window.location.href='remotesensing.html#LiDAR-Derived-Raster-Products'" style="cursor:pointer;">
                 <img src="summary/lidar.png" alt="LiDAR Derived Raster Products">
                 <div class="overlay">
                   <p>LiDAR Derived Raster Products</p>
                 </div>
               </div>
-			  <!-- Python Programming Basics -->
-              <div class="thumbnail" onclick="window.open('programming.html#Python-Programming-Basics');" style="cursor:pointer;">
-                <img src="summary/PythonB.png" alt="Python Programming Basics">
-                <div class="overlay">
-                  <p>Basics Of Python Programming</p>
-                </div>
+            </div>
+
+            <div class="column">
+
+             <!-- SQL and Access Database -->
+             <div class="thumbnail" onclick="window.location.href='programming.html#SQL'" style="cursor:pointer;">
+              <img src="summary/relation.png" alt="SQL and Access Database">
+              <div class="overlay">
+                <p>SQL and Microsoft Access Database</p>
               </div>
             </div>
-			
-            <div class="column">
-			  <!-- Infographics -->
-              <div class="thumbnail" onclick="window.open('cartography.html#Infographics');" style="cursor:pointer;">
+              <!-- Cave Mapping -->
+                  <div class="thumbnail" onclick="window.location.href='programming.html#Python-Programming-Basics'" style="cursor:pointer;">
+                    <img src="summary/PythonB.png" alt="Python Programming Basics">
+                    <div class="overlay">
+                      <p>Cave Mapping Python Code</p>
+                    </div>
+                  </div>
+            <!-- Drone Flight Survey Plan -->
+            <div class="thumbnail" onclick="window.location.href='programming.html#Drone-Flight'" style="cursor:pointer;">
+              <img src="summary/drone.png" alt="Drone Flight Survey Plan">
+              <div class="overlay">
+                <p>Drone Flight Survey Plan Python Code</p>
+              </div>
+            </div>
+            
+			       <!-- Infographics -->
+              <div class="thumbnail" onclick="window.location.href='cartography.html#Infographics'" style="cursor:pointer;">
                 <img src="summary/info.png" alt="Infographic Map">
                 <div class="overlay">
                   <p>Infographic Poster</p>
                 </div>
               </div>
-              <!-- Map Symbols -->
-              <div class="thumbnail" onclick="window.open('cartography.html#Map-Symbols');" style="cursor:pointer;">
-                <img src="summary/MapSymbol.png" alt="Map Symbols">
-                <div class="overlay">
-                  <p>Customized Map Symbols</p>
-                </div>
-              </div>
               <!-- Pan-Sharpening of Spatial Imagery -->
-              <div class="thumbnail" onclick="window.open('remotesensing.html#Pan-Sharpening-of-Spatial-Imagery');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='remotesensing.html#Pan-Sharpening-of-Spatial-Imagery'" style="cursor:pointer;">
                 <img src="summary/PanSharp.png" alt="Pan-Sharpening of Spatial Imagery">
                 <div class="overlay">
                   <p>Pan-Sharpening of Spatial Imagery</p>
                 </div>
               </div>
               <!-- Google Maps -->
-              <div class="thumbnail" onclick="window.open('webgis.html#Google-Maps');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='webgis.html#Google-Maps'" style="cursor:pointer;">
                 <img src="summary/GMaps.png" alt="Google Maps">
                 <div class="overlay">
                   <p>Google Maps</p>
                 </div>
               </div>
               <!-- ArcPy -->
-              <div class="thumbnail" onclick="window.open('programming.html#Python-programming-with-ArcGIS-Pro');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='programming.html#Python-programming-with-ArcGIS-Pro'" style="cursor:pointer;">
                 <img src="summary/ArcPy.png" alt="ArcPy Example">
                 <div class="overlay">
                   <p>Python Programming with ArcGIS Pro</p>
                 </div>
               </div>
-			  <!-- Collaborative Project -->
+            </div>
+
+            <div class="column">
+
+			        <!-- Collaborative Project -->
               <div class="thumbnail" onclick="window.open('https://mansi8806.github.io/P2215-HHLT/index.html');" style="cursor:pointer;">
                 <img src="summary/Collab.png" alt="Collaborative Project">
                 <div class="overlay">
                   <p>Collaborative Project Website</p>
                 </div>
               </div>
-            </div>
-            <div class="column">
               <!-- Mapping Techniques -->
-              <div class="thumbnail" onclick="window.open('cartography.html#Different-Mapping-Techniques');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='cartography.html#Different-Mapping-Techniques'" style="cursor:pointer;">
                 <img src="summary/linemap.png" alt="Different-Mapping-Techniques">
                 <div class="overlay">
                   <p>Mapping Techniques</p>
                 </div>
               </div>
               <!-- Interpolation with the Spatial Analyst Extension in ArcGIS Pro -->
-              <div class="thumbnail" onclick="window.open('spatialanalysis.html#Interpolation-with-the-Spatial-Analyst-Extension-in-ArcGIS-Pro');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='spatialanalysis.html#Interpolation-with-the-Spatial-Analyst-Extension-in-ArcGIS-Pro'" style="cursor:pointer;">
                 <img src="summary/Interpolation.png" alt="Interpolation-with-the-Spatial-Analyst-Extension-in-ArcGIS-Pro">
                 <div class="overlay">
                   <p>Interpolation with the Spatial Analyst Extension in ArcGIS Pro</p>
                 </div>
               </div>
               <!-- Multi-Spectral Land Cover Classification -->
-              <div class="thumbnail" onclick="window.open('remotesensing.html#Multi-Spectral-Land-Cover-Classification');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='remotesensing.html#Multi-Spectral-Land-Cover-Classification'" style="cursor:pointer;">
                 <img src="summary/LCC.png" alt="Multi-Spectral Land Cover Classification">
                 <div class="overlay">
                   <p>Multi-Spectral Land Cover Classification</p>
                 </div>
               </div>
               <!-- Interactive Web Map Solution -->
-              <div class="thumbnail" onclick="window.open('webgis.html#Interactive-Web-Map');" style="cursor:pointer;">
+              <div class="thumbnail" onclick="window.location.href='webgis.html#Interactive-Web-Map'" style="cursor:pointer;">
                 <img src="summary/Leaflet.png" alt="Interactive Web Map">
                 <div class="overlay">
                   <p>Interactive Web Map Solution</p>
                 </div>
               </div>
-			  <!-- Website Design -->
-              <div class="thumbnail" onclick="window.open('programming.html#Website-Design');" style="cursor:pointer;">
+			        <!-- Website Design -->
+              <div class="thumbnail" onclick="window.location.href='programming.html#Website-Design'" style="cursor:pointer;">
                 <img src="summary/Website.png" alt="Website Design">
                 <div class="overlay">
                   <p>Website Design Using HTML, CSS & JavaScript</p>
                 </div>
               </div>
             </div>
+           
           </div>
         </section>
-
       </div>
     </main>
     <!-- Footer -->
