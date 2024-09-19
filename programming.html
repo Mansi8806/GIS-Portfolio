@@ -24,6 +24,67 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
+            <!-- Research Projects -->
+            <li class="nav-item dropdown"></li>
+            <a class="nav-link dropdown-toggle" href="projects.html" data-bs-toggle="dropdown" aria-expanded="false">Research Projects</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="projects.html#Water-Resources">Water Resources Engineering Project</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="projects.html#GIS-Collab">GIS Collaborative Project</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Surveying -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="surveying.html" data-bs-toggle="dropdown" aria-expanded="false">Surveying</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="surveying.html#Survey-Plan">City of Kawartha Lakes Survey Plan</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="surveying.html#Traverse-Plan">Survey Traverse Plan</a>
+              </li>
+            </ul>
+          </li>
+            <!-- Web Development -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="webgis.html" data-bs-toggle="dropdown" aria-expanded="false">Web Development</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="webgis.html#Highlights">Highlights</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="webgis.html#Google-Maps">Google Maps</a>
+                </li>
+				<li>
+                  <a class="dropdown-item" href="webgis.html#Interactive-Web-Map">Interactive Web Map Solution</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Programming -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="programming.html" data-bs-toggle="dropdown" aria-expanded="false">Programming</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="programming.html#Drone-Flight">Drone Flight Survey Plan Python Code</a>
+                </li>
+                <li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#Python-Programming-Basics">Cave Mapping Python Code</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#Python-programming-with-ArcGIS-Pro">Python Programming with ArcGIS Pro</a>
+                </li>
+				        <li>
+                  <a class="dropdown-item" href="programming.html#Website-Design">Website Design Using HTML, CSS & JavaScript</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#SQL">SQL and Microsoft Access Database</a>
+                </li>
+              </ul>
+            </li>
             <!-- Cartography -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle"  href="cartography.html" data-bs-toggle="dropdown" aria-expanded="false">Cartography</a>
@@ -39,9 +100,6 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="cartography.html#Terrain-Visualization">Terrain Visualization</a>
-                </li>
-				<li>
-                  <a class="dropdown-item" href="cartography.html#Map-Symbols">Map Symbols</a>
                 </li>
               </ul>
             </li>
@@ -75,45 +133,6 @@
                 </li>
               </ul>
             </li>
-            <!-- Web GIS -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="webgis.html" data-bs-toggle="dropdown" aria-expanded="false">Web GIS</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="webgis.html#Highlights">Highlights</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="webgis.html#Google-Maps">Google Maps</a>
-                </li>
-				<li>
-                  <a class="dropdown-item" href="webgis.html#Interactive-Web-Map">Interactive Web Map Solution</a>
-                </li>
-              </ul>
-            </li>
-            <!-- Programming -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="programming.html" data-bs-toggle="dropdown" aria-expanded="false">Programming</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="programming.html#Python-Programming-Basics">Python Programming Basics</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="programming.html#Python-programming-with-ArcGIS-Pro">Python Programming with ArcGIS Pro</a>
-                </li>
-				<li>
-                  <a class="dropdown-item" href="programming.html#Website-Design">Website Design Using HTML, CSS & JavaScript</a>
-                </li>
-              </ul>
-            </li>
-            <!-- Collaborative Project -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="https://mansi8806.github.io/P2215-HHLT/index.html" data-bs-toggle="dropdown" aria-expanded="false">Collaborative Project</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="https://mansi8806.github.io/P2215-HHLT/index.html" target="_blank">Remote Sensing Data and Tools Framework for Haliburton Highlands Land Trust</a>
-                </li>
-              </ul>
-            </li>
           </ul>
         </div>
       </div>
@@ -122,9 +141,19 @@
     <!-- Main  -->
     <main>
       <div class="container py-5">
-        <!-- Python Programming Basics -->
+        	<!-- Drone Flight Survey Plan -->
+    <section class="work" id="Drone-Flight">
+      <h1>Drone Flight Survey Plan Python Code</h1>
+      <div class="tag"><a class="btn btn-outline-dark btn-sm" href="files/DroneFlightPlanCode.py" target="_blank" role="button">View Code</a> <a class="btn btn-outline-dark btn-sm" href="files/FlightOptions.csv" target="_blank" role="button">Example Input CSV File</a></div>
+  <div class="tag"><span class="badge text-bg-info">Visual Studio Code</span> <span class="badge text-bg-secondary">Python Programming</span></div>
+      <p>The purpose of this application python code is to help fire emergency responders to organize their response for capturing fire images via drone flight operations. 
+        The user needs to input known information about the drone's specifications and the area they will be visualizing and can quickly receive data that will help them plan the optimal flight path. 
+        After using this application, results displayed will be aerial footprint size (± 1.1 cm), number of flight lines, total number of images and price of drone survey.
+      </p>
+    </section>
+        <!-- Cave Mapping Python Code -->
         <section class="work" id="Python-Programming-Basics">
-          <h1>Python Programming Basics</h1>
+          <h1>Cave Mapping Python Code</h1>
           <div class="tag"><a class="btn btn-outline-dark btn-sm" href="files/problem.pdf" target="_blank" role="button">View Problem</a> <a class="btn btn-outline-dark btn-sm" href="files/PythonCode.pdf" target="_blank" role="button">View Python Code</a></div>
 		  <div class="tag"><span class="badge text-bg-info">Visual Studio Code</span> <span class="badge text-bg-secondary">Python Programming</span></div>
           <p> Here is an example of a python code file (of a problem which we were given during our academic coursework)
@@ -162,7 +191,17 @@
           <p>This website published on GitHub is the team effort made to elaborate it as a dummy GIS consulting group website. CSS (Cascading Style Sheet) and JavaScript
 		  is used with HTML programming language to give customized and attractive appearance of the website. </p>
         </section>
-        
+      
+       <!-- SQL and Access Database -->
+       <section class="work" id="SQL">
+        <h1>SQL and Microsoft Access Database</h1>
+        <div class="tag"><a class="btn btn-outline-dark btn-sm" href="files/tree.accdb" target="_blank" role="button">View Database</a> </div>
+        <p>Here attached is the microsoft access database which was the academic coursework. All classmates had to collect data about their neighboorhood trees by filling the Esri's Survey123 form where we had to put information about trees like their 
+          class (Coniferous or Deciduous), species from the given options, their health condition, percent deadwood, approximate height, crownspread, our location, altitute and extra comments.
+        Then we were given a task of merging all these in one access database with the help of SQL (Structures Query Language) and deriving the relationships of different categories. </p>
+        <a class="preview"><img src="images/sql.png" alt="SQL"></a>
+      </section>
+
       </div>
     </main>
     <!-- Footer -->
